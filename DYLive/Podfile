@@ -1,0 +1,24 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'DYLive' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  pod 'Alamofire'
+  pod 'Kingfisher'  
+
+
+
+  # Pods for DYLive
+
+  target 'DYLiveTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'DYLiveUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
