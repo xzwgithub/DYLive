@@ -10,7 +10,7 @@ import UIKit
 
 let kChatCellID = "kChatCellID"
 
-class ZWBaseTableTableViewController: UIViewController {
+class ZWBaseTableViewController: UIViewController {
 
     // MARK: -定义属性
     var count : Int = 0
@@ -39,13 +39,13 @@ class ZWBaseTableTableViewController: UIViewController {
 }
 
 // MARK: - 设置UI
-extension ZWBaseTableTableViewController {
+extension ZWBaseTableViewController {
     func setupUI() {
        view.addSubview(tableView)
     }
 }
 
-extension ZWBaseTableTableViewController : UITableViewDataSource {
+extension ZWBaseTableViewController : UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return count
