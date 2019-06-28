@@ -27,10 +27,10 @@
             </objects>
             <point key="canvasLocation" x="-955" y="-91"/>
         </scene>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="qd8-Fl-v9f">
             <objects>
-                <viewController id="DSd-9G-0BA" sceneMemberID="viewController">
+                <viewController id="DSd-9G-0BA" customClass="ZWHomeViewController" customModule="DYLive" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="bsL-xZ-Z40"/>
                         <viewControllerLayoutGuide type="bottom" id="Fe9-Ol-dbC"/>

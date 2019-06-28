@@ -36,7 +36,7 @@ class ZWBaseViewController: UIViewController {
 
 extension ZWBaseViewController {
     
-       func setUI(){
+      @objc func setUI(){
     
        //1.隐藏contentView
        contentView?.isHidden = true

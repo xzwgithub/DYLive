@@ -29,12 +29,28 @@
 		EB80FA7E22B3818300BCC4E0 /* ZWChatViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB80FA7C22B3818300BCC4E0 /* ZWChatViewCell.xib */; };
 		EB80FA8022B3894800BCC4E0 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB80FA7F22B3894800BCC4E0 /* Common.swift */; };
 		EB80FA8722B38A5B00BCC4E0 /* ZWHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB80FA8622B38A5B00BCC4E0 /* ZWHomeViewController.swift */; };
+		EB87601322C45CEC00511235 /* ZWRoomShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB87601222C45CEC00511235 /* ZWRoomShowViewController.swift */; };
+		EB87601522C45D9C00511235 /* ZWRoomNormalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB87601422C45D9C00511235 /* ZWRoomNormalViewController.swift */; };
+		EB87601722C469A300511235 /* ZWRecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB87601622C469A300511235 /* ZWRecommendViewController.swift */; };
+		EB87601922C469E500511235 /* ZWGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB87601822C469E500511235 /* ZWGameViewController.swift */; };
+		EB87601B22C46A0700511235 /* ZWAmuseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB87601A22C46A0700511235 /* ZWAmuseViewController.swift */; };
+		EB87601D22C46A1F00511235 /* ZWFunnyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB87601C22C46A1F00511235 /* ZWFunnyViewController.swift */; };
+		EB87602122C46E9C00511235 /* UIBarButtonItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB87602022C46E9C00511235 /* UIBarButtonItem+Extension.swift */; };
+		EB87602322C49C2A00511235 /* ZWCycleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB87602222C49C2A00511235 /* ZWCycleModel.swift */; };
+		EB87602522C49FF300511235 /* ZWRecommendViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB87602422C49FF300511235 /* ZWRecommendViewModel.swift */; };
+		EB87602722C4A49300511235 /* NSDate+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB87602622C4A49300511235 /* NSDate+Extension.swift */; };
+		EB87602922C4B1D100511235 /* ZWRecommendCycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB87602822C4B1D100511235 /* ZWRecommendCycleView.swift */; };
+		EB87602B22C4B1E000511235 /* ZWRecommendCycleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB87602A22C4B1E000511235 /* ZWRecommendCycleView.xib */; };
+		EB87602E22C4BC3500511235 /* ZWCollectionCycleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB87602C22C4BC3500511235 /* ZWCollectionCycleCell.swift */; };
+		EB87602F22C4BC3500511235 /* ZWCollectionCycleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB87602D22C4BC3500511235 /* ZWCollectionCycleCell.xib */; };
 		EBB9336522B22D55005B5D2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB9336422B22D55005B5D2B /* AppDelegate.swift */; };
 		EBB9336A22B22D55005B5D2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBB9336822B22D55005B5D2B /* Main.storyboard */; };
 		EBB9336C22B22D57005B5D2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBB9336B22B22D57005B5D2B /* Assets.xcassets */; };
 		EBB9336F22B22D57005B5D2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBB9336D22B22D57005B5D2B /* LaunchScreen.storyboard */; };
 		EBB9337A22B22D57005B5D2B /* DYLiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB9337922B22D57005B5D2B /* DYLiveTests.swift */; };
 		EBB9338522B22D57005B5D2B /* DYLiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB9338422B22D57005B5D2B /* DYLiveUITests.swift */; };
+		EBB9B94A22C20FB000150613 /* ZWCollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB9B94822C20FB000150613 /* ZWCollectionHeaderView.swift */; };
+		EBB9B94B22C20FB000150613 /* ZWCollectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBB9B94922C20FB000150613 /* ZWCollectionHeaderView.xib */; };
 		EBBCDEB322BB80270041A8A9 /* ZWNetWorkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBCDEB222BB80270041A8A9 /* ZWNetWorkTools.swift */; };
 		EBE031FF22B236EA00F5C5E1 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBE031FE22B236EA00F5C5E1 /* Home.storyboard */; };
 		EBE0320122B236F500F5C5E1 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBE0320022B236F500F5C5E1 /* Live.storyboard */; };
@@ -89,6 +105,20 @@
 		EB80FA7C22B3818300BCC4E0 /* ZWChatViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZWChatViewCell.xib; sourceTree = "<group>"; };
 		EB80FA7F22B3894800BCC4E0 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		EB80FA8622B38A5B00BCC4E0 /* ZWHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZWHomeViewController.swift; sourceTree = "<group>"; };
+		EB87601222C45CEC00511235 /* ZWRoomShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZWRoomShowViewController.swift; sourceTree = "<group>"; };
+		EB87601422C45D9C00511235 /* ZWRoomNormalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZWRoomNormalViewController.swift; sourceTree = "<group>"; };
+		EB87601622C469A300511235 /* ZWRecommendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZWRecommendViewController.swift; sourceTree = "<group>"; };
+		EB87601822C469E500511235 /* ZWGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZWGameViewController.swift; sourceTree = "<group>"; };
+		EB87601A22C46A0700511235 /* ZWAmuseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZWAmuseViewController.swift; sourceTree = "<group>"; };
+		EB87601C22C46A1F00511235 /* ZWFunnyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZWFunnyViewController.swift; sourceTree = "<group>"; };
+		EB87602022C46E9C00511235 /* UIBarButtonItem+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extension.swift"; sourceTree = "<group>"; };
+		EB87602222C49C2A00511235 /* ZWCycleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZWCycleModel.swift; sourceTree = "<group>"; };
+		EB87602422C49FF300511235 /* ZWRecommendViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZWRecommendViewModel.swift; sourceTree = "<group>"; };
+		EB87602622C4A49300511235 /* NSDate+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSDate+Extension.swift"; sourceTree = "<group>"; };
+		EB87602822C4B1D100511235 /* ZWRecommendCycleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZWRecommendCycleView.swift; sourceTree = "<group>"; };
+		EB87602A22C4B1E000511235 /* ZWRecommendCycleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZWRecommendCycleView.xib; sourceTree = "<group>"; };
+		EB87602C22C4BC3500511235 /* ZWCollectionCycleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZWCollectionCycleCell.swift; sourceTree = "<group>"; };
+		EB87602D22C4BC3500511235 /* ZWCollectionCycleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZWCollectionCycleCell.xib; sourceTree = "<group>"; };
 		EBB9336122B22D55005B5D2B /* DYLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBB9336422B22D55005B5D2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EBB9336922B22D55005B5D2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -101,6 +131,8 @@
 		EBB9338022B22D57005B5D2B /* DYLiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYLiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBB9338422B22D57005B5D2B /* DYLiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DYLiveUITests.swift; sourceTree = "<group>"; };
 		EBB9338622B22D57005B5D2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBB9B94822C20FB000150613 /* ZWCollectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZWCollectionHeaderView.swift; sourceTree = "<group>"; };
+		EBB9B94922C20FB000150613 /* ZWCollectionHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZWCollectionHeaderView.xib; sourceTree = "<group>"; };
 		EBBCDEB222BB80270041A8A9 /* ZWNetWorkTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZWNetWorkTools.swift; sourceTree = "<group>"; };
 		EBE031FE22B236EA00F5C5E1 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		EBE0320022B236F500F5C5E1 /* Live.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Live.storyboard; sourceTree = "<group>"; };
@@ -176,6 +208,8 @@
 			isa = PBXGroup;
 			children = (
 				EB80FA7322B3761E00BCC4E0 /* UIColor+Extension.swift */,
+				EB87602022C46E9C00511235 /* UIBarButtonItem+Extension.swift */,
+				EB87602622C4A49300511235 /* NSDate+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -209,6 +243,8 @@
 		EB80FA7A22B3810900BCC4E0 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				EB87601222C45CEC00511235 /* ZWRoomShowViewController.swift */,
+				EB87601422C45D9C00511235 /* ZWRoomNormalViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -227,6 +263,7 @@
 		EB80FA8222B38A2400BCC4E0 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				EB87602422C49FF300511235 /* ZWRecommendViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -234,6 +271,12 @@
 		EB80FA8322B38A2D00BCC4E0 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				EBB9B94822C20FB000150613 /* ZWCollectionHeaderView.swift */,
+				EBB9B94922C20FB000150613 /* ZWCollectionHeaderView.xib */,
+				EB87602822C4B1D100511235 /* ZWRecommendCycleView.swift */,
+				EB87602A22C4B1E000511235 /* ZWRecommendCycleView.xib */,
+				EB87602C22C4BC3500511235 /* ZWCollectionCycleCell.swift */,
+				EB87602D22C4BC3500511235 /* ZWCollectionCycleCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -242,6 +285,10 @@
 			isa = PBXGroup;
 			children = (
 				EB80FA8622B38A5B00BCC4E0 /* ZWHomeViewController.swift */,
+				EB87601622C469A300511235 /* ZWRecommendViewController.swift */,
+				EB87601822C469E500511235 /* ZWGameViewController.swift */,
+				EB87601A22C46A0700511235 /* ZWAmuseViewController.swift */,
+				EB87601C22C46A1F00511235 /* ZWFunnyViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -249,6 +296,7 @@
 		EB80FA8522B38A4200BCC4E0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				EB87602222C49C2A00511235 /* ZWCycleModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -477,12 +525,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB87602F22C4BC3500511235 /* ZWCollectionCycleCell.xib in Resources */,
 				EB1BB33622BCFDD20084778D /* ZWCollectionPrettyCell.xib in Resources */,
 				EBB9336F22B22D57005B5D2B /* LaunchScreen.storyboard in Resources */,
+				EBB9B94B22C20FB000150613 /* ZWCollectionHeaderView.xib in Resources */,
 				EBB9336C22B22D57005B5D2B /* Assets.xcassets in Resources */,
 				EBB9336A22B22D55005B5D2B /* Main.storyboard in Resources */,
 				EBE0320122B236F500F5C5E1 /* Live.storyboard in Resources */,
 				EB1BB33222BCFD630084778D /* ZWCollectionNormalCell.xib in Resources */,
+				EB87602B22C4B1E000511235 /* ZWRecommendCycleView.xib in Resources */,
 				EBE031FF22B236EA00F5C5E1 /* Home.storyboard in Resources */,
 				EBE0320522B2371800F5C5E1 /* Profile.storyboard in Resources */,
 				EBE0320322B2370400F5C5E1 /* Follow.storyboard in Resources */,
@@ -598,15 +649,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB1BB32A22BCF8580084778D /* ZWBaseViewModel.swift in Sources */,
+				EB87601322C45CEC00511235 /* ZWRoomShowViewController.swift in Sources */,
+				EB87602522C49FF300511235 /* ZWRecommendViewModel.swift in Sources */,
 				EB80FA8022B3894800BCC4E0 /* Common.swift in Sources */,
 				EB80FA7022B36DC500BCC4E0 /* ZWBaseViewController.swift in Sources */,
 				EB80FA8722B38A5B00BCC4E0 /* ZWHomeViewController.swift in Sources */,
 				EBBCDEB322BB80270041A8A9 /* ZWNetWorkTools.swift in Sources */,
+				EB87601922C469E500511235 /* ZWGameViewController.swift in Sources */,
 				EB1BB32522BCF40D0084778D /* ZWAchorModel.swift in Sources */,
 				EBB9336522B22D55005B5D2B /* AppDelegate.swift in Sources */,
+				EB87601D22C46A1F00511235 /* ZWFunnyViewController.swift in Sources */,
+				EB87602922C4B1D100511235 /* ZWRecommendCycleView.swift in Sources */,
+				EB87601B22C46A0700511235 /* ZWAmuseViewController.swift in Sources */,
 				EB1BB32722BCF5B30084778D /* ZWAnchorGroupModel.swift in Sources */,
+				EB87602722C4A49300511235 /* NSDate+Extension.swift in Sources */,
+				EBB9B94A22C20FB000150613 /* ZWCollectionHeaderView.swift in Sources */,
+				EB87602E22C4BC3500511235 /* ZWCollectionCycleCell.swift in Sources */,
 				EBE0321022B2422A00F5C5E1 /* ZWNavViewController.swift in Sources */,
 				EBE0320C22B23F1300F5C5E1 /* MainViewController.swift in Sources */,
+				EB87601722C469A300511235 /* ZWRecommendViewController.swift in Sources */,
 				EB1BB33822BCFDF40084778D /* ZWCollectionBaseCell.swift in Sources */,
 				EB1BB32322BCF1E50084778D /* ZWBaseGameModel.swift in Sources */,
 				EB1BB32E22BCFD090084778D /* ZWPageTitleView.swift in Sources */,
@@ -615,6 +676,9 @@
 				EB80FA7622B37BB800BCC4E0 /* ZWBaseTableViewController.swift in Sources */,
 				EB80FA7422B3761E00BCC4E0 /* UIColor+Extension.swift in Sources */,
 				EB80FA7D22B3818300BCC4E0 /* ZWChatViewCell.swift in Sources */,
+				EB87602322C49C2A00511235 /* ZWCycleModel.swift in Sources */,
+				EB87602122C46E9C00511235 /* UIBarButtonItem+Extension.swift in Sources */,
+				EB87601522C45D9C00511235 /* ZWRoomNormalViewController.swift in Sources */,
 				EB1BB33A22BD0AFC0084778D /* ZWBaseAnchorViewController.swift in Sources */,
 				EB1BB33122BCFD630084778D /* ZWCollectionNormalCell.swift in Sources */,
 			);
